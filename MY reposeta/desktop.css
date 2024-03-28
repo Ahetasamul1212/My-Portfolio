@@ -1,0 +1,162 @@
+
+/* This is for the pc or lg-screen devices */
+
+
+
+/* For desktop sizes */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+.nav-logo{
+    text-align: left;
+
+}
+
+.nav-heading h1{
+    text-align: right;
+}
+
+.navbar-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-menu a{
+    padding: 5px 10px;
+    margin: 20px 0;
+    background-color: transparent;
+}
+
+/* profile */
+.profile .top-weather-icon{
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    transition: transform 2s;
+}
+
+.profile .top-weather-icon:hover{
+    
+    transform: scale(0.9);
+}
+
+
+.profile-desc h1{
+    font-family: 'satisfy', cursive; 
+    font-size: 3rem;
+}
+
+.profile-desc p{
+    color: gray;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+
+.profile .bottom-weather-icon{
+    bottom: 20px;
+    position: absolute;
+    left: 100px;
+    bottom: 10px;
+    transition: transform 2s;
+}
+
+.profile .bottom-weather-icon:hover{
+    
+    transform: scale(0.9);
+}
+/* profile */
+
+
+/* about me */
+
+.aboutme-image{
+    margin-top: 100px;
+}
+
+.aboutme-image img{
+   height: 270px;
+   width: 250px;
+}
+
+.aboutme-desc{
+    text-align: left;
+}
+
+/* about me */
+/* pofesional section */
+.profesional-experience{
+    padding: 1% 5%;
+}
+/* pofesional section */
+
+/* achivement */
+.achivement{
+    padding: 50px;
+ }
+
+ .contact button{
+   width: 150px;
+}
+
+.contact-link{
+    
+    position: relative;
+}
+
+.media-button{
+
+    position: absolute;
+    margin-top: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* achivement */
+
+.footer{
+
+    
+    text-align: start;
+    margin: auto;
+}
+
+.footer-menu{
+    margin-top: 12px;
+}
+
+.footer-menu a {
+    border: 1px solid transparent;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: end;
+    display: inline;
+    margin: 10px;
+    
+}
+
+.footer-menu a:hover{
+    background-color: gray;
+    color: aliceblue;
+}
+
+.footer-desc{
+    font-weight: bold;
+    text-align: end;
+}
+
